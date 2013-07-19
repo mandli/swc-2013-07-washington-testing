@@ -20,3 +20,9 @@ def mean(numlist):
     except :
         print "Something unknown happened with the list."
     return total/length
+
+def test_mean():
+    assert True
+
+if __name__ == "__main__":
+    mean([1, 2, 2, 4, 5])
