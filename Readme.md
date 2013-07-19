@@ -5,6 +5,8 @@
 **Based on materials by Katy Huff, Rachel Slaybaugh, and Anthony
 Scopatz**
 
+** Presented by Kyle Mandli **
+
 ![image](https://github.com/thehackerwithin/UofCSCBC2012/raw/scopz/5-Testing/test_prod.jpg)
 # What is testing?
 
@@ -548,3 +550,6 @@ p2 = np.array([1.0, 1.0])
 data = np.array([[0.3, 0.6], [0.25, 0.5], [1.0, 0.75]])
 ```
 
+# Continuous Integration
+
+These types of tests can be automated!  
