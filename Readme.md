@@ -7,7 +7,7 @@ i.e. What not to do and perhaps what you should do
 **Based on materials by Katy Huff, Rachel Slaybaugh, and Anthony
 Scopatz**
 
-** Presented by Kyle Mandli **
+**Presented by Kyle Mandli**
 
 # Some Preliminaries
 
@@ -590,4 +590,6 @@ data = np.array([[0.3, 0.6], [0.25, 0.5], [1.0, 0.75]])
 
 # Continuous Integration
 
-These types of tests can be automated!  
+**Continuous integration** is the practice of checking that the tests in a package all pass on a regular basis.  Usually this implies that the `master` branch of a project is regular built, installed and tested as often as it makes sense to do so.  Often this is also done when a developer submits a patch or pull request.  
+
+![image](./travis-ci-build-success.png)
