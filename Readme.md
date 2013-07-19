@@ -1,4 +1,6 @@
-# Testing
+# Scientific Software Engineering
+
+i.e. What not to do and perhaps what you should do
 
 * * * * *
 
@@ -7,7 +9,43 @@ Scopatz**
 
 ** Presented by Kyle Mandli **
 
+# Some Preliminaries
+
+### Imports and Doc-Strings
+
+```
+import numpy
+
+def unicorn_awesome(x, y):
+    """ Calculate unicorn awesome based on parrots x and eagles y.
+        
+        Input
+        -----
+        - `x` (int) - Number of unicorn awesome
+        - `y` (int) - Number of stupid eagles
+
+        Output
+        ------
+        (float) Amount of unicorn awesome on your minivan
+    """
+    return numpy.exp(y - x)
+```
+
+### Try-Except Blocks
+
+```
+try:
+    D = {'stuff':1}
+    print D['not stuff']
+except KeyError as e: 
+    print "Whoops!"
+    print e
+```
+
+# Onto Testing
+
 ![image](https://github.com/thehackerwithin/UofCSCBC2012/raw/scopz/5-Testing/test_prod.jpg)
+
 # What is testing?
 
 Software testing is a process by which one or more expected behaviors
@@ -329,10 +367,10 @@ assert_array_almost_equal(a, b)
 
 ## Exercise: Writing tests for mean()
 
-There are a few tests for the mean() function that we listed in this
-lesson. What are some tests that should fail? Add at least three test
-cases to this set. Edit the `test_mean.py` file which tests the mean()
-function in `mean.py`.
+1. Write a `mean()` function in your group.
+2. Write tests for your `mean()` function called `test_mean.py`.
+
+Feel free to refer to the tests and function illustrated earlier.
 
 *Hint:* Think about what form your input could take and what you should
 do to handle it. Also, think about the type of the elements in the list.
