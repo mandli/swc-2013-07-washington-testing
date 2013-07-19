@@ -238,7 +238,7 @@ whole. This sort of testing involves comparison with other validated
 codes, analytical solutions, etc.
 
 **Regression Tests:** A regression test ensures that new code does
-change anything. If you change the default answer, for example, or add a
+not change anything. If you change the default answer, for example, or add a
 new question, you'll need to make sure that missing entries are still
 found and fixed.
 
