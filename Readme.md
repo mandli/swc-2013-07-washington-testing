@@ -590,21 +590,30 @@ data = np.array([[0.3, 0.6], [0.25, 0.5], [1.0, 0.75]])
 
 # Continuous Integration
 
-**Continuous integration** is the practice of checking that the tests in a package all pass on a regular basis.  Usually this implies that the `master` branch of a project is regular built, installed and tested as often as it makes sense to do so.  Often this is also done when a developer submits a patch or pull request.  
+**Continuous integration is the practice of checking that the tests in
+**a package all pass on a regular basis.  Usually this implies that
+**the `master` branch of a project is regular built, installed and
+**tested as often as it makes sense to do so.  Often this is also done
+**when a developer submits a patch or pull request.
 
-### Cheese Shop
+## Cheese Shop
 
-Add cheese to the cheese shop
-![image](./CI_branch_example_slice_1.png)
+**Add Cheese to the Cheese shop**
 
-Want to test the cheese as we integate into the shop
-![image](./CI_branch_example_slice_2.png)
+![](./CI_branch_example_slice_1.png)
 
-Aron wants cheese but we have not checked it yet!
-![image](./CI_branch_example_slice_3.png)
+**Want to test the cheese as we integate into the shop **
 
-If we test before the `Stilton` patch is applied then we would have known and Aron would not be unhappy.
-![image](./CI_branch_example_slice_4.png)
+![](./CI_branch_example_slice_2.png)
 
-Here is an example of integration with github through the Travis-CI server.  Note that the Travis-CI servers are checking this pull reqeust for use before it is applied to the master branch.
-![image](./travis-ci-build-success.png)
+**Aron wants cheese but we have not checked it yet!**
+
+![](./CI_branch_example_slice_3.png)
+
+**If we test before the `Stilton` patch is applied then we would have known and Aron would not be unhappy.**
+
+![](./CI_branch_example_slice_4.png)
+
+**Here is an example of integration with github through the Travis-CI server.  Note that the Travis-CI servers are checking this pull reqeust for use before it is applied to the master branch.**
+
+![](./travis-ci-build-success.png)
